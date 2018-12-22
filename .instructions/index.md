@@ -42,7 +42,7 @@ but using its syntax is difficult to use (there is a lot of 'boiler-plate'). So
 we will be using `pytest` as it is easier to understand and use in practice. The
 first thing to do is to check that you have pytest installed:
 
-* From the OSX (or Linux) command prompt issue the command `pytest --version`.i
+* From the OSX (or Linux) command prompt issue the command `pytest --version`.
   This should produce output showing the `pytest` command works and giving you
   version information:
   ```
@@ -58,5 +58,6 @@ first thing to do is to check that you have pytest installed:
   [Help with programming (Module Canvas page)](
   https://canvas.anglia.ac.uk/courses/1490/pages/help-with-programming).
 
-
+* To become familiar with pytest work through
+  * Video "using pytest to unit test code"
 
