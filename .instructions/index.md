@@ -10,13 +10,12 @@
   Computing GC Content](http://rosalind.info/problems/gc/)
   where you are given a number of DNA sequences in a FASTA file format
   and we need to find the sequence with the highest %GC content.
-* First read through the [Rosalind Problem:
-  Computing GC Content](http://rosalind.info/problems/gc/),
-  includinh the section Identifying Unknown DNA Quickly (that you must
+  So firt read through the problem,
+  including the section *Identifying Unknown DNA Quickly* (that you must
   click to expand).
 * But do not start coding yet! We are going to see how to tackle the problem
-  in a systematic approach using software testing following the instructions 
-  below.
+  in a systematic approach using software testing. To do this work through
+  the instructions below.
 
 ## Software Testing
 In this practical you are going to start using 'Unit tests'
