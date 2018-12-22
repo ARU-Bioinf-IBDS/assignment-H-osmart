@@ -21,12 +21,23 @@ By the end of this practical you will be able to:
   the instructions below.
 
 ## Software Testing
+In this practical we are going to see how testing can be used to
+aid software development. First watch this video:
+* *link to mp4 recording* **TODO: Dec 2018**
+* [Powerpoint slides](https://1drv.ms/p/s!AjeHBmwgk7Hto1USV9VWha1ny9jG)
+
+## Unit tests
 In this practical you are going to start using 'Unit tests'
-for functions. The 'unit' in this call we an individual
-function and the tests are a set of function input parameters
+where individual 'units' of code are tested.
+At this stage we will be testing individual functions
+and the tests are a set of function input parameters
 and expected return values.
 
-Unit tests forms an important part of modern software development,
-see the Wikipedia page: https://en.wikipedia.org/wiki/Unit_testing
+Unit testing forms an important part of modern software development,
+for more information see the Wikipedia page: 
+https://en.wikipedia.org/wiki/Unit_testing
 
+The Python standard library has a reasonable unit testing module called `unittest`
+
+Although Python has a reasonable 
 
