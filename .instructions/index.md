@@ -1,7 +1,10 @@
 # Instructions for Assignment H: Unit tests and File IO
 
-## Learning objectives
-*
+## Practical Learning Outcomes
+By the end of this practical you will be able to:
+* Understand how unit tests can be used in the software development process.
+* Use `pytest` to run existing Python unit tests.
+* Write Python code to read and write to files.   
 
 
 ## Assignment task.
