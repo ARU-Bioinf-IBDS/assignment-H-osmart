@@ -23,8 +23,9 @@ By the end of this practical you will be able to:
 ## Software Testing
 In this practical we are going to see how testing can be used to
 aid software development. First watch this video:
-* *link to mp4 recording* **TODO: Dec 2018**
-* [Powerpoint slides](https://1drv.ms/p/s!AjeHBmwgk7Hto1USV9VWha1ny9jG)
+* ["Software Testing"](a myplayer link)  **TODO: record osmart Dec 2018**
+* ["Software Testing" Powerpoint slides](
+   https://1drv.ms/p/s!AjeHBmwgk7Hto1USV9VWha1ny9jG)
 
 ## Unit testing with `pytest`
 In this practical you are going to start using 'Unit tests'
@@ -58,6 +59,6 @@ first thing to do is to check that you have pytest installed:
   [Help with programming (Module Canvas page)](
   https://canvas.anglia.ac.uk/courses/1490/pages/help-with-programming).
 
-* To become familiar with pytest work through
-  * Video "using pytest to unit test code"
+* To become familiar with pytest work through the video follow-me exercise:
+  * ["Using pytest to unit test code"](../0_starting_pytest/README.md)
 
