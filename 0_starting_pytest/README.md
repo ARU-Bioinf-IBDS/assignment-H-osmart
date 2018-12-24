@@ -19,8 +19,12 @@ You should view the video: ["Using pytest to unit test code"](a myplayer link)
   ```
   cd 0_starting_pytest
   ```
-  
-## First `pytest` test to look at `test_add_one.py`
+## Cheat sheet
+* In this directory you can find a "cheat sheet" (or reference card) that
+  quickly summarises the basis use of `pytest`:
+
+
+## An initial example `pytest` test.
 * Then edit `test_add_one.py`:
   ```
   edit test_add_one.py
@@ -60,4 +64,10 @@ You should view the video: ["Using pytest to unit test code"](a myplayer link)
   Result is green success with **"2 passed"**
 * Commit the bug fix with a decent commit message - saying tests now pass.
 
-## `test_show_pytest_comparisons.py` shows more about 
+## show more about pytest comparisons
+
+* edit the file:
+```
+edit test_show_pytest_comparisons.py
+```
+  * TODO 
