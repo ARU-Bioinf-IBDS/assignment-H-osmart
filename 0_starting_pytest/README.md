@@ -19,12 +19,15 @@ You should view the video: ["Using pytest to unit test code"](a myplayer link)
   ```
   cd 0_starting_pytest
   ```
+  
+## First `pytest` test to look at `test_add_one.py`
 * Then edit `test_add_one.py`:
   ```
   edit test_add_one.py
   ```
   * explain that `pytest` tests python files have to names starting with 
     `test_` or ending in `_test` 
+  * talk through the NOTE - normal to import
   * the actual tests are functions with names starting with 
     `test_`.
   * these functions normally have an `assert` statement that if `True` means
@@ -33,12 +36,28 @@ You should view the video: ["Using pytest to unit test code"](a myplayer link)
     Although normal Python has an `assert` statement if should be avoided in 
     practice just use it in `pytest`.
 * Switch back to the command line and show that:
+
   ```
   python test_add_one.py
   ```
+  
   does nothing! Although it is valid Python the functions do nothing.
 * Instead to run the tests use the `pytest` command:
   ```
   pytest test_add_one.py
   ```
-  does nothing! Although it is valid Python the functions do nothing.
+  look at the fail messages: there are two fail messages.
+* So pytest runs multiple tests. If you want to run a single test 
+  this is most easily done with the `-k EXPRESSION` argument where 
+  only tests with a substring match to `EXPRESSION` are run. In this
+  case to run just the test with an input `0` use:
+  ```
+  pytest -k zero test_add_one.py
+  ```
+  
+* Looking at the test results easy to see current `add_one` has a simple bug
+* Correct bug by changing minus to a +. Save and rerun test. 
+  Result is green success with **"2 passed"**
+* Commit the bug fix with a decent commit message - saying tests now pass.
+
+## `test_show_pytest_comparisons.py` shows more about 

@@ -11,9 +11,9 @@ def add_one(x):
     return x - 1
 
 
-def test_add_one_with_0():
+def test_add_one_with_zero():
     assert add_one(0) == 1
 
 
-def test_add_one_with_3():
+def test_add_one_with_three():
     assert add_one(3) == 4
