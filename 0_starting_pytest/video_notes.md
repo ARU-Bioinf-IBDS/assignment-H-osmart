@@ -92,3 +92,22 @@
   ```
   * how to test for exceptions - different types of errors. Have not yet 
   covered in detail.
+
+## A real practical example.
+
+* in file:
+  ```
+  edit test_count_vowels.py
+  ```
+* Instructions:
+
+    write pytest tests for a function count_vowels that returns the 
+    number of vowels (a, e, i, o, u) in a string.  It should work 
+    for lower and UPPER case strings. All strings will be in
+    English.
+* write the tests.
+  ```python
+  ```
+* then function count_vowels.py
+  ```
+  ```
