@@ -95,7 +95,7 @@
 
 ## A real practical example.
 
-* in file:
+* Start with file:
   ```
   edit test_count_vowels.py
   ```
@@ -125,8 +125,9 @@ def test_upper_case_vowels():
     
 def test_ARU():
     assert count_vowels('Anglia Ruskin University') == 9
-  ```
-* then write function `count_vowels.py`
+```
+
+* then write function `count_vowels.py`:
 ```python 
 def count_vowels(in_string):
     """ returns the number of vowels in in_string """
@@ -135,4 +136,38 @@ def count_vowels(in_string):
         answer += in_string.count(v)
     return answer 
     # could be simplified   
-    # return sum([in_string.count(v) for v in 'aeiouAEIOU'])```
+    # return sum([in_string.count(v) for v in 'aeiouAEIOU'])\
+```
+* Note we have written the tests and then function. This is an example
+  of *Test Driven Development (TTD)*
+
+* Suppose `count_vowels` is being used as a part of a security system
+  for generating questions about peoples passwords for an telephone
+  banking system. An email arrives:
+  ```
+  edit email_add_french_accented_vowels.txt
+  ```
+* So add the feature but first add a test (or two).
+```python
+# test_count_vowels.py
+from count_vowels import count_vowels
+
+#.... other tests 
+
+def test_french_characters():
+    assert count_vowels('éàèùÉÀÈÙ') == 8
+```
+* a function that passes:
+```python
+def count_vowels(in_string):
+    """ returns the number of vowels in in_string """
+    vowels = 'aeiouéàèù'
+    vowels += vowels.upper()
+    return sum([in_string.count(v) for v in vowels])
+```
+
+## running all the tests in a directory
+* pytest can discover all run all tests in a directory:
+```
+pytest
+```

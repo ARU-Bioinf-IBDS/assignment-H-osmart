@@ -1,0 +1,19 @@
+From: Pepé Le Pew <Pepé.LePew@fictional.bank.co.fr>
+To: Support <support@fictionalsoftware.com>
+Subject: You need to support accented characters.
+
+Hi Guys,
+
+Love your product but we got a big problem. We accept
+accented characters:
+
+é à è ù
+
+in passwords and need the count_vowels function to count
+these letters as vowels.
+
+We need this change to be made ASAP otherwise we will switch suppliers!
+
+Salut! 
+
+Pepé 
