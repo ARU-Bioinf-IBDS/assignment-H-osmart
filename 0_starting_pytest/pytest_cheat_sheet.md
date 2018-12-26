@@ -1,13 +1,13 @@
-# pytest basic usage reference card
+## pytest basic usage reference card
 
-## testing you have pytest installed and working
+### testing you have pytest installed and working
 * at the command line issue type command:
   ```
   pytest --version
   ```
   this should produce a response starting **This is pytest version...**.
 
-## writing pytest tests
+### writing pytest tests
 * The Python file for a test must be called `test_`*something*`.py` 
   or  *something*`_test.py`
 * Use `import` to access the function to be tested:
@@ -38,7 +38,7 @@
   ```
   this will only pass if a ValueError is raised in the call.
   
-## running pytest tests.
+### running pytest tests.
 * To run a particular test file:
   ```
   pytest test_something.py
