@@ -106,8 +106,33 @@
     for lower and UPPER case strings. All strings will be in
     English.
 * write the tests.
-  ```python
+
+```python
+# test_count_vowels.py
+from count_vowels import count_vowels
+
+def test_non_vowels():
+    assert count_vowels('sthvxyz.,&') == 0
+
+def test_single_vowel():
+    assert count_vowels('a') == 1
+    
+def test_iou():
+    assert count_vowels('iou') == 3
+    
+def test_upper_case_vowels():
+    assert count_vowels('AEIOU') == 5
+    
+def test_ARU():
+    assert count_vowels('Anglia Ruskin University') == 9
   ```
-* then function count_vowels.py
-  ```
-  ```
+* then write function `count_vowels.py`
+```python 
+def count_vowels(in_string):
+    """ returns the number of vowels in in_string """
+    answer = 0
+    for v in 'aeiouAEIOU':
+        answer += in_string.count(v)
+    return answer 
+    # could be simplified   
+    # return sum([in_string.count(v) for v in 'aeiouAEIOU'])```
