@@ -7,13 +7,13 @@
   setuptools registered plugins:
     pytest-cov-2.6.0 at /Users/osmart/anaconda3/lib/python3.6/site-packages/pytest_cov/plugin.py
   ```
-* Start by changing directory:
+* then changing directory:
   ```
   cd 0_starting_pytest
   ```
 ## Cheat sheet
-* In this directory you can find a "cheat sheet" (or reference card) that
-  quickly summarises the basis use of `pytest`:
+* You should already have printed out a reference card that 
+  quickly summarises the basis use of `pytest`
 
 
 ## An initial example `pytest` test.
@@ -58,8 +58,37 @@
 
 ## show more about pytest comparisons
 
-* edit the file:
-```
-edit test_show_pytest_comparisons.py
-```
-  * TODO 
+* Lets look at more about pytest comparisons in file:
+  ```
+  edit test_show_pytest_comparisons.py
+  ```
+
+* the first test shows how pytest assert can be used to compare lists. 
+  Run it by
+  ```
+  pytest -k list test_show_pytest_comparisons.py
+  ```
+  * assert does a really good job at showing what is different in tests.
+  * rerun test with `-v` option to show long comparison.
+  * finally sort the first `compare_lists` test.
+  
+* the second test shows how to compare floats.
+  ```
+  pytest -k list test_show_pytest_comparisons.py
+  ```
+  * rounding errors need to avoided
+  * use `pytest.approx`
+
+* go own and look test `more_on_pytest_approx`
+  ```
+  pytest -k approx test_show_pytest_comparisons.py
+  ```
+  * `pytest.approx` takes a sensible approach to float comparison
+    normally one place in a million.
+    
+* finally look at last test on exceptions:
+  ```
+  pytest -k exception test_show_pytest_comparisons.py
+  ```
+  * how to test for exceptions - different types of errors. Have not yet 
+  covered in detail.
