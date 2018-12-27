@@ -16,7 +16,7 @@ These are follow-me exercises to introduce `pytest` unit tests.
     **TODO: osmart Dec 2018: Embed Myplayer video player here**\
     [My notes for making the video *"Introducing pytest"*](
     ../.instructions/0_starting_pytest/introducing_pytest_video_notes.md) 
-  * *"Practical Example of pytest"\
+  * *"Practical Example of pytest"*\
     **TODO: osmart Dec 2018: record**\
     **TODO: osmart Dec 2018: Embed Myplayer video player here**\
     [My notes for making the video *"Practical Example of pytest"*](
