@@ -68,11 +68,11 @@ We are going to tackle this week's assignment by splitting it up into
 relevant functions with unit tests.
 
 * Video showing the approach.
-* Then change directory to [./2_fasta_highest_gc](./2_fasta_highest_gc) where you
+* Then change directory to [1_fasta_highest_gc](../11_fasta_highest_gc) where you
   will find starting code and tests. 
 * Write functions in [fasta_highest_gc.py](
-  ./2_fasta_highest_gc/fasta_highest_gc.py) to pass unit tests:
-  * [test_percent_gc.py](./2_fasta_highest_gc/test_percent_gc.py) 
+  ../1_fasta_highest_gc/fasta_highest_gc.py) to pass unit tests:
+  * [test_percent_gc.py](../1_fasta_highest_gc/test_percent_gc.py) 
     for `percent_gc()` function
 
 
