@@ -59,6 +59,22 @@ first thing to do is to check that you have pytest installed:
   [Help with programming (Module Canvas page)](
   https://canvas.anglia.ac.uk/courses/1490/pages/help-with-programming).
 
-* To become familiar with pytest work through the video follow-me exercise:
-  * ["Using pytest to unit test code"](../0_starting_pytest/README.md)
+* To become familiar with pytest work through the video follow-me exercises:\
+  ["Using pytest to unit test code"](../0_starting_pytest/README.md)
+
+## Tackling the Rosalind Computing GC Content Problem 
+
+We are going to tackle this week's assignment by splitting it up into 
+relevant functions with unit tests.
+
+* Video showing the approach.
+* Then change directory to [./2_fasta_highest_gc](./2_fasta_highest_gc) where you
+  will find starting code and tests. 
+* Write functions in [fasta_highest_gc.py](
+  ./2_fasta_highest_gc/fasta_highest_gc.py) to pass unit tests:
+  * [test_percent_gc.py](./2_fasta_highest_gc/test_percent_gc.py) 
+    for `percent_gc()` function
+
+
+
 
