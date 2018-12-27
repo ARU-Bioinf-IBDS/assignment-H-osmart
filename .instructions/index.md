@@ -27,7 +27,7 @@ aid software development. First watch this video:
 * ["Software Testing" Powerpoint slides](
    https://1drv.ms/p/s!AjeHBmwgk7Hto1USV9VWha1ny9jG)
 
-## Unit testing with `pytest`
+## 0. Unit testing with `pytest`
 In this practical you are going to start using 'Unit tests'
 where individual 'units' of code are tested.
 At this stage we will be testing individual functions
@@ -62,16 +62,22 @@ first thing to do is to check that you have pytest installed:
 * To become familiar with pytest work through the video follow-me exercises:\
   ["Using pytest to unit test code"](../0_starting_pytest/README.md)
 
-## Tackling the Rosalind Computing GC Content Problem 
+## 1. Reading and Writing to Files
+
+* Reading and writing files in Python is pretty simple.
+
+  Cover open read close ?
+
+## 2. Tackling the Rosalind Computing GC Content Problem 
 
 We are going to tackle this week's assignment by splitting it up into 
 relevant functions with unit tests.
 
 * Video showing the approach.
-* Then change directory to [1_fasta_highest_gc](../1_fasta_highest_gc) where you
+* Then change directory to [2_fasta_highest_gc](../2_fasta_highest_gc) where you
   will find starting code and tests. 
 * Write functions in [fasta_highest_gc.py](
-  ../1_fasta_highest_gc/fasta_highest_gc.py) to pass unit tests:
+  ../2_fasta_highest_gc/fasta_highest_gc.py) to pass unit tests:
   * [test_percent_gc.py](../1_fasta_highest_gc/test_percent_gc.py) 
     for `percent_gc()` function
 
