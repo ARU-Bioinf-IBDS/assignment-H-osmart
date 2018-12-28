@@ -64,9 +64,12 @@ first thing to do is to check that you have pytest installed:
 
 ## 1. Reading and Writing to Files
 
-* Reading and writing files in Python is pretty simple.
-
-  Cover open read close ?
+To be able to tackle this week's task you are going to read
+sequences from a file.
+Reading and writing files in Python is straightforward,
+as you will see in the
+video follow-me exercise 
+["Reading and writing files in Python"](../1_file_io/README.md)
 
 ## 2. Tackling the Rosalind Computing GC Content Problem 
 
