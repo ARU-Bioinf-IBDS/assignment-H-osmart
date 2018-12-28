@@ -27,7 +27,7 @@ aid software development. First watch this video:
 * ["Software Testing" Powerpoint slides](
    https://1drv.ms/p/s!AjeHBmwgk7Hto1USV9VWha1ny9jG)
 
-## 0. Unit testing with `pytest`
+## 0. Using `pytest` for testing
 In this practical you are going to start using 'Unit tests'
 where individual 'units' of code are tested.
 At this stage we will be testing individual functions
