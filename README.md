@@ -9,7 +9,7 @@
   ](https://canvas.anglia.ac.uk/courses/1490/pages/practical-g-version-control-with-git#classroom).
 * Then work through 
   [Assignment H: Unit tests and File IO instructions
-  ](.instructions/index.md) *(advice: open this link in a new tab.)*
+  ](.instructions/README.md) *(advice: open this link in a new tab.)*
 
 ## Notes about this assignment
 
