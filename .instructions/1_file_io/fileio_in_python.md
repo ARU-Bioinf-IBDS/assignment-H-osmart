@@ -77,4 +77,55 @@
   print('read lines:', lines)
   ```
 
+## CSV files
+
+Comma-separated values (CSV) files are a useful way to store and exchange structured data.
+For instance, they can be easily read by spreadsheet programs, such as Microsoft Excel, and
+into databases. The basic format is simple with rows having data items separated by
+a comma delimiter. There is often a heading line stating what each row contains.:
+```
+Name,Room Number,E-mail
+Alice North,107,north@example.com
+Fred Jones,101,fred@example.com
+Lisa South,107,lisa2345@gmail.com
+```
+Other characters can be used as delimiters, for instance, a tab character (Python `'\t'`) is
+common resulting in a TSV (tab-separated values).
+
+Python includes a `csv` module that makes it easy to read and write csv files.
+
+* the following example shows how to read from a CSV file `input.csv` printing eacg
+row to the screen:
+```python
+import csv
+with open('input.csv') as file_in:
+    csv_reader = csv.reader(file_in)
+    for row in csv_reader:
+        print(row)
+```
+* CSV and TSV files often have a heading line. This example shows how read data from a TSV file
+  and separately store the header.
+```python
+import csv
+with open('input2.tsv') as file_in:
+    reader = csv.reader(file_in, delimiter='\t')
+    headings = next(reader)
+    data = list(reader)
+print'headings: ', headings)
+for row in data:
+    print(row)
+```
+* writing CSV files is straightforward:
+```python
+import csv
+headings = ('Name', 'Room Number', 'E-mail')
+data = [('Alice North', 107, 'north@example.com'),
+        ('Fred Jones', 101, 'fred@example.com'),
+        ('Lisa South', 107, 'lisa2345@gmail.com')]
+with open('save.csv', 'w') as f_out:
+    writer = csv.writer(f_out)
+    writer.writerow(headings)
+    for row in data:
+        writer.writerow(row)
+```
 
