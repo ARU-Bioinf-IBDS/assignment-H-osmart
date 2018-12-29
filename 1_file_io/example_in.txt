@@ -1,0 +1,3 @@
+this is first line example_in.txt from first line
+second line!
+3rd and final line.
