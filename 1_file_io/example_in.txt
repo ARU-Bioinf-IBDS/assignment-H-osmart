@@ -1,3 +1,3 @@
-this is first line example_in.txt from first line
+this is first line from example_in.txt
 second line!
 3rd and final line.
