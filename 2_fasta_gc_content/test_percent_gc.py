@@ -1,6 +1,6 @@
 """ unit tests for function percent_gc """
 import pytest
-from fasta_highest_gc import percent_gc
+from fasta_gc_content import percent_gc
 
 
 def test_percent_gc_G():
