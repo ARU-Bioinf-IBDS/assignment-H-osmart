@@ -28,13 +28,22 @@
   ```
   edit task_2_function_to_read_a_file_into_lines.py
   ```
-  To test the function
-  ```python
-  def lines_from_file(filename):
-     """ 
-     reads input file filename and returns a list of lines from it.
-     """
-     with open(filename) as file_in:
-         contents = file_in.read()
-     return contents.splitlines()
-   ```
+  To test the function use pytest test provided. 
+  * Show it to them using:
+    ```
+    edit test_lines_from_file.py
+    ```
+  * run by:
+    ```
+    pytest test_lines_from_file.py
+    ```
+  * My code to pass the test.
+    ```python
+    def lines_from_file(filename):
+    """ 
+    reads input file filename and returns a list of lines from it.
+    """
+    with open(filename) as file_in:
+        contents = file_in.read()
+    return contents.splitlines()
+    ```
