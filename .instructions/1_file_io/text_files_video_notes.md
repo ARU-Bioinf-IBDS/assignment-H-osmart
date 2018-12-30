@@ -23,6 +23,8 @@
   print(contents,  end='')
   ```
   the `end=''` is necessary as contents has all the newlines in the file.
+
+### task 2: function to read a file and return list of lines
 * Then write a function to read a file and return a list of the lines in it (without any
   newline characters).
   ```
@@ -47,3 +49,30 @@
         contents = file_in.read()
     return contents.splitlines()
     ```
+  * git add , then commit working code including in message that it passes the test. 
+
+### task 3 - write a FASTA sequence file
+* Open the task 3 file:
+  ```
+  edit task_3_write_a_file.py
+  ```
+* Task is to write a FASTA format file with given label and sequence. FASTA files
+  have a line starting with > followed by a label then the sequence on next line
+  that can be continued if long
+* Check result by :
+  ```
+  cat test_out.fasta
+  ```
+* My code to complete the task.
+  ```python
+  # instructions: write python to write 
+  # the label and sequence to a file 'test_out.fasta'
+  # in a FASTA format
+  label='Test_fasta_99999'
+  sequence='CCTGCGGAAGATCGGCACTAGAATAGCCAGAACCGTTTCTCTGAGGCTTCCGGCCTTCCCTCCCACT'
+  with open('test_out.fasta', mode='w') as file_out:
+      file_out.write('>' + label + '\n')
+      file_out.write(sequence + '\n')
+
+  ```
+* git add / then commit working code 
