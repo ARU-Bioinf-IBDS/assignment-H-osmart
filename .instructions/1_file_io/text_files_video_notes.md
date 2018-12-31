@@ -42,12 +42,10 @@
   * My code to pass the test.
     ```python
     def lines_from_file(filename):
-    """ 
-    reads input file filename and returns a list of lines from it.
-    """
-    with open(filename) as file_in:
-        contents = file_in.read()
-    return contents.splitlines()
+        """reads input file filename and returns a list of lines from it."""
+        with open(filename) as file_in:
+            contents = file_in.read()
+        return contents.splitlines()
     ```
   * git add , then commit working code including in message that it passes the test. 
 
