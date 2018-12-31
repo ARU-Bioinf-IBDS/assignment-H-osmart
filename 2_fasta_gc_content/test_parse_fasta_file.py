@@ -24,4 +24,4 @@ def test_read_from_rosalind_sample_dot_txt():
 
 def test_function_has_docstring():
     # just check there is one as cannot check that it is human readable
-    assert len(parse_fasta.__doc__) > 0
+    assert len(parse_fasta_file.__doc__) > 0
