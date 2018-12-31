@@ -92,6 +92,9 @@ relevant functions with unit tests.
     for `parse_fasta_file(filename)` that supplied with a filename of a 
     FASTA file returns a tuple (list of the IDs, list of the sequences).
   * [test_percent_gc.py](../2_fasta_gc_content/test_percent_gc.py) 
-    for `percent_gc(sequence)` function that calculated %GC content 
+    for `percent_gc(sequence)` function that calculates %GC content 
     for a sequence.
+  * [test_gc_percentages.py](../2_fasta_gc_content/test_gc_percentages.py) 
+    for `gc_percentages(seqs)` function that returns a list of GC percentages
+    for each of the seqs.
  
