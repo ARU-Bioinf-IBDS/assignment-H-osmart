@@ -82,9 +82,14 @@ relevant functions with unit tests.
 * Write functions in [fasta_gc_content.py](
   ../2_fasta_gc_content/fasta_gc_content.py) to pass unit tests:
   * [test_percent_gc.py](../2_fasta_gc_content/test_percent_gc.py) 
-    for `percent_gc(sequence)` function that calculated %GC content for a sequence
+    for `percent_gc(sequence)` function that calculated %GC content 
+    for a sequence.
   * [test_lines_from_file.py](../2_fasta_gc_content/test_lines_from_file.py)
-    for `lines_from_file(filename)` that returns a list of lines read from filename.
-
+    for `lines_from_file(filename)` that returns a list of lines read from 
+    filename.
+  * [test_parse_fasta_lines](../2_fasta_gc_content/test_parse_fasta_lines.py)
+    for `parse_fasta_from_lines(lines)` that supplied with a list of lines 
+    from a FASTA format file returns a tuple (list of the IDs, list of 
+    the sequences).
 
 
