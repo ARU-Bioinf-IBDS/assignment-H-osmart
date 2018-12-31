@@ -81,9 +81,9 @@ relevant functions with unit tests.
   will find starting code and tests. 
 * Write functions in [fasta_gc_content.py](
   ../2_fasta_gc_content/fasta_gc_content.py) to pass unit tests:
-  * [test_percent_gc.py](../1_fasta_highest_gc/test_percent_gc.py) 
+  * [test_percent_gc.py](../2_fasta_highest_gc/test_percent_gc.py) 
     for `percent_gc(sequence)` function that calculated %GC content for a sequence
-  * [test_lines_from_file.py](../1_fasta_highest_gc/test_lines_from_file.py)
+  * [test_lines_from_file.py](../2_fasta_highest_gc/test_lines_from_file.py)
     for `lines_from_file(filename)` that returns a list of lines read from filename.
 
 
