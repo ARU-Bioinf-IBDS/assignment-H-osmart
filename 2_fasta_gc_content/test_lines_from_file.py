@@ -29,7 +29,7 @@ def test_read_lines_from_rosalind_sample_dot_txt():
 
 def test_function_has_docstring():
     # just check there is one as cannot check that it is human readable
-    assert len(filename_in_this_directory.__doc__) > 0
+    assert len(lines_from_file.__doc__) > 0
 
 
 def filename_in_this_directory(filename):
