@@ -1,0 +1,2 @@
+>minimal_fasta_with_single_short_sequence
+ATGC
