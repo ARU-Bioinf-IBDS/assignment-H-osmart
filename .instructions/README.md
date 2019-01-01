@@ -97,4 +97,8 @@ relevant functions with unit tests.
   * [test_gc_percentages.py](../2_fasta_gc_content/test_gc_percentages.py) 
     for `gc_percentages(seqs)` function that returns a list of GC percentages
     for each of the seqs.
+  * [test_highest_gc_in_fasta_file.py](../2_fasta_gc_content/test_highest_gc_in_fasta_file.py)
+    for `highest_gc_in_fasta_file(filename)` function that 
+    reads DNA sequences from the input FASTA format file_name
+    returns the (id, sequence) with the highest %GC content
  
