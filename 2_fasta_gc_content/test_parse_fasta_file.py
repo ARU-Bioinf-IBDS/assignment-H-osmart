@@ -5,7 +5,6 @@ tuple (list of the IDs, list of the sequences).
 
 uses two files in this directory.
 """
-import os
 from fasta_gc_content import parse_fasta_file
 from test_lines_from_file import filename_in_this_directory
 
