@@ -4,7 +4,7 @@ We are going to tackle this week's assignment by splitting it up into
 relevant functions with unit tests.
 
 * Video showing the approach.
-* Then open a terminal and in your copy of the assignment repo
+* Then open a terminal and in your copy of your assignment repo
   change directory to [2_fasta_gc_content](./) where you
   will find starting code and tests, leading you through.
 
@@ -46,4 +46,44 @@ relevant functions with unit tests.
   for instance [rosalind_final_test.txt](./rosalind_final_test.txt)
   it is easiest to write a command line script to apply 
   `highest_gc_in_fasta_file(filename)` to any FASTA file.
+* You will find an example script in the file [example_python_script](./example_python_script)
+  * the script can be run from ae OSX or Linux command line terminal by first changing
+    the directory to your assignment repo subdirectory [2_fasta_gc_content](./) 
+    that contains the script. 
 
+  * Then `ls` the script
+    <pre>
+    $ <b>ls -lh example_python_script</b>
+    -rwxr-xr-x  1 osmart  staff   704B  2 Jan 14:43 example_python_script
+    </pre>
+    This confirms you are the correct directory. In addition the listing shows that the
+    script has `x` executable permission.
+
+  * You can run the script from the terminal command line.
+    * First run without command line arguments:
+      <pre>
+      $ <b>./example_python_script</b>
+      main function
+      argv:  ['./example_python_script']
+      name of script argv[0]:  ./example_python_script
+      no command line arguments given
+      </pre>
+    * Then specify some arguments after the script name:
+      <pre>
+      $ <b>./example_python_script input.txt output.csv</b>
+      main function
+      argv:  ['./example_python_script', 'input.txt', 'output.csv']
+      name of script argv[0]:  ./example_python_script
+      2 command line arguments given
+      list of command line arguments:  ['input.txt', 'output.csv']
+      first command line argument:  input.txt
+      </pre>
+    * You can see how the script access the command line arguments and prints 
+      them out.  Look at the source code [example_python_script](./example_python_script)
+      to see how this is done.
+* Using [example_python_script](./example_python_script) as a template now write a script
+  `fasta_highest_gc` to that reads a fasta file containing DNA sequences and reports which
+  entry has the highest percentage GC content.  This script should call the  
+  `highest_gc_in_fasta_file(filename)` function written above.
+  * Here is example output:
+  `
