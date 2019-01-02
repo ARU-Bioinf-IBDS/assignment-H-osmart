@@ -1,8 +1,11 @@
 # Introducting Software Testing
 In this practical we are going to see how testing can be used to
 aid software development. First watch this video:
-* ["Software Testing"](a myplayer link)  **TODO: record osmart Dec 2018**
-* ["Software Testing" Powerpoint slides](
+
+* *"Software Testing"*\
+  **TODO: osmart Dec 2018: record**\
+  **TODO: osmart Dec 2018: Embed Myplayer video player here**\
+  ["Software Testing" Powerpoint slides](
    https://1drv.ms/p/s!AjeHBmwgk7Hto1USV9VWha1ny9jG)
 
 ## Using `pytest` for testing
