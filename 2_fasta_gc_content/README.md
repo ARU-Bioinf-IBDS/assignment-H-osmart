@@ -7,6 +7,8 @@ relevant functions with unit tests.
 * Then open a terminal and in your copy of the assignment repo
   change directory to [2_fasta_gc_content](./) where you
   will find starting code and tests, leading you through.
+
+## Writing functions to tackle the problem
 * Write functions in [fasta_gc_content.py](
   ./fasta_gc_content.py) to pass the unit tests provided.
   Where possible use a call to a previously written function. git commit changes 
@@ -33,12 +35,15 @@ relevant functions with unit tests.
     for `highest_gc_in_fasta_file(filename)` function that 
     reads DNA sequences from the input FASTA format file_name
     returns the (id, sequence) with the highest %GC content
- 
-  Once you have implemented the `highest_gc_in_fasta_file(filename)` function so that
+
+## Writing a script 
+* Now you have implemented the `highest_gc_in_fasta_file(filename)` function so that
   [test_highest_gc_in_fasta_file.py](./test_highest_gc_in_fasta_file.py) 
   passes then the functionality needed for 
   [Rosalind Problem: Computing GC Content](http://rosalind.info/problems/gc/)
-  has been completed. But to be able to easily apply it to a given new test set,
+  has been completed. 
+* But to be able to easily apply it to a given new test set,
   for instance [rosalind_final_test.txt](./rosalind_final_test.txt)
   it is easiest to write a command line script to apply 
   `highest_gc_in_fasta_file(filename)` to any FASTA file.
+
