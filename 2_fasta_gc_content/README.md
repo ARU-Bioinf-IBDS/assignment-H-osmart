@@ -85,5 +85,18 @@ relevant functions with unit tests.
   `fasta_highest_gc` to that reads a fasta file containing DNA sequences and reports which
   entry has the highest percentage GC content.  This script should call the  
   `highest_gc_in_fasta_file(filename)` function written above.
-  * Here is example output:
+  * Here are example runs showing how the script should perform:
+    <pre> 
+    $ <b>./fasta_highest_gc</b>
+    ERROR you must supply the input fasta filename as a command line argument
+    $ <b>./fasta_highest_gc simple_fasta.txt</b>
+    minimal_fasta_with_single_short_sequence
+    50.000000
+    $ <b>./fasta_highest_gc rosalind_sample.txt</b>
+    Rosalind_0808
+    60.919540
+    </pre>
+  * When you commit your  `fasta_highest_gc` script make sure you include sample
+    test output in the commit message showing that it works.
+
   `
