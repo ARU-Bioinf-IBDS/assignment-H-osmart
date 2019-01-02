@@ -20,47 +20,9 @@ By the end of this practical you will be able to:
   in a systematic approach using software testing. To do this work through
   the instructions below.
 
-## Software Testing
-In this practical we are going to see how testing can be used to
-aid software development. First watch this video:
-* ["Software Testing"](a myplayer link)  **TODO: record osmart Dec 2018**
-* ["Software Testing" Powerpoint slides](
-   https://1drv.ms/p/s!AjeHBmwgk7Hto1USV9VWha1ny9jG)
-
-## 0. Using `pytest` for testing
-In this practical you are going to start using 'Unit tests'
-where individual 'units' of code are tested.
-At this stage we will be testing individual functions
-and the tests are a set of function input parameters
-and expected return values.
-
-Unit testing forms an important part of modern software development,
-for more information see the Wikipedia page: 
-https://en.wikipedia.org/wiki/Unit_testing
-
-The Python standard library has a reasonable unit testing module called `unittest`
-but using its syntax is difficult to use (there is a lot of 'boiler-plate'). So
-we will be using `pytest` as it is easier to understand and use in practice. The
-first thing to do is to check that you have pytest installed:
-
-* From the OSX (or Linux) command prompt issue the command `pytest --version`.
-  This should produce output showing the `pytest` command works and giving you
-  version information:
-  ```
-  $ pytest --version
-  This is pytest version 3.2.1, imported from /Users/osmart/anaconda3/lib/python3.6/site-packages/pytest.py
-  setuptools registered plugins:
-    pytest-cov-2.6.0 at /Users/osmart/anaconda3/lib/python3.6/site-packages/pytest_cov/plugin.py
-  ```
-  If instead of this you get a response like `-bash: pytest: command not found` then 
-  pytest has not been installed. 
-  To install pytest See https://docs.pytest.org/en/latest/getting-started.html#install-pytest 
-  and if you continue to have problems ask for help, see
-  [Help with programming (Module Canvas page)](
-  https://canvas.anglia.ac.uk/courses/1490/pages/help-with-programming).
-
-* To become familiar with pytest work through the video follow-me exercises:\
-  ["Using pytest to unit test code"](../0_starting_pytest/README.md)
+## 0. Introducing Software Testing 
+To become familiar with Software Testing using `pytest` see:\
+  ["Introducting Software Testing"](../0_starting_pytest/README.md)
 
 ## 1. Reading and Writing to Files
 
