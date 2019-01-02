@@ -21,8 +21,8 @@ By the end of this practical you will be able to:
   the instructions below.
 
 ## 0. Introducing Software Testing 
-To become familiar with Software Testing using `pytest` see:\
-  ["Introducting Software Testing"](../0_starting_pytest/README.md)
+To become familiar with Software Testing using `pytest` see:
+["Introducting Software Testing"](../0_starting_pytest/README.md)
 
 ## 1. Reading and Writing to Files
 
