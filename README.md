@@ -17,3 +17,6 @@
 * *include results from
   [Final Test of the `fasta_highest_gc` script](
   2_fasta_gc_content/README.md#final-test-of-the-fasta_highest_gc-script)*
+* *include results from
+  [Final Test of the `fasta_order_gc` script.](
+  ./.instructions/3_gc_content_extension.md#final-test-of-the-fasta_order_gc-script)*
