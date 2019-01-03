@@ -87,6 +87,11 @@ relevant functions with unit tests.
     * You can see how the script access the command line arguments and prints 
       them out.  Look at the source code [example_python_script](./example_python_script)
       to see how this is done.
+* Note that although it is possible to run Python files on the command line using 
+  `python filename.py`
+  using scripts is good practice as it makes its clear which file is to be run
+  and encourages development of good Command Line Interfaces (CLI) with sensible
+  options and help messages.
 * Using [example_python_script](./example_python_script) as a template now write a script
   `fasta_highest_gc` to that reads a fasta file containing DNA sequences and reports which
   entry has the highest percentage GC content.  This script should call the  
