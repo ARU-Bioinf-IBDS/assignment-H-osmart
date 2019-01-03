@@ -117,7 +117,7 @@ relevant functions with unit tests.
   * [Reflection on Practical H: Unit tests and File IO](
     https://canvas.anglia.ac.uk/courses/1490/TODO-LINK)\
     **TODO: osmart Jan 2019: add link to Canvas page**\
-    So that you can compare results with your classmate.
+    So that you can compare results with your classmates.
   * The **Notes about this assignment** in the top [README.md](
     ../README.md#notes-about-this-assignment)
 
