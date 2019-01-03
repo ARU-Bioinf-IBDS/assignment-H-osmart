@@ -8,7 +8,7 @@ relevant functions with unit tests.
   **TODO: osmart Jan 2019: record**\
   **TODO: osmart Jan 2019 Embed Myplayer video player here**\
   [My notes to make the "Tackling Rosalind %GC" video](
-  .instructions/2_fasta_gc_content/tackling_rosalind_gc_video_notes.md)
+  ../.instructions/2_fasta_gc_content/tackling_rosalind_gc_video_notes.md)
  
 * Then open a terminal and in your copy of your assignment repo
   change directory to [2_fasta_gc_content](./) where you
