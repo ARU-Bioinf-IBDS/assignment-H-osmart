@@ -41,3 +41,14 @@ video follow-me exercise
 We are going to tackle this week's assignment by splitting it up into 
 relevant functions with unit tests, see 
 [Tackling the Rosalind Computing GC Content Problem](../2_fasta_gc_content/README.md)
+
+## 3. Computing GC Content Extension.
+
+On reflection the Rosalind Problem is a bit limited so we will make it a bit more general
+[Computing GC Content Extension](./3_gc_content_extension.md)
+
+## 4. Optional Additional Exercises
+
+These exercises show how the GC Content can be made more professional: 
+[Optional Additional Exercises](./4_optional_additional_exercises.md)
+  
