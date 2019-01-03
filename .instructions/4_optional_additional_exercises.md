@@ -110,8 +110,13 @@ to  use a class structure. I would suggest two classes `Sequence`
 and `Sequences`
 
 
-## 4.7 Make code into a pip instalable package
+## 4.7 Make code into a pip installable package
 
+Restructure all the code to make it a pip installable package. See
+
+https://python-packaging.readthedocs.io/en/latest/
+
+**Warning** this is quite a complex process!
 
 <hr>
 
