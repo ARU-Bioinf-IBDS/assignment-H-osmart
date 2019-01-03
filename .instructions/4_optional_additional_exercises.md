@@ -99,6 +99,10 @@ Biopython is easy to install in conda: https://anaconda.org/anaconda/biopython
 
 Refactor you code to use biopython to read FASTA rather than the DIY code. 
 
+Furthermore, biopython includes code to calculate %GC content 
+http://biopython.org/DIST/docs/api/Bio.SeqUtils-module.html#GC
+So refactor your code to use this.
+
 ## 4.6 Use classes to produce cleaner code.
 
 For those who have experience writing Python classes refactor code
