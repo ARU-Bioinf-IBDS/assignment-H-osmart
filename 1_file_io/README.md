@@ -22,3 +22,7 @@ These are follow-me exercises to introduce Python fileIO
     **TODO: osmart Dec 2018: Embed Myplayer video player here**\
     [My notes to make the CSV files video](
     ../.instructions/1_file_io/CSV_files_video_notes.md) 
+
+<hr>
+
+*Back to:* [Instructions for Assignment H: Unit tests and File IO](../.instructions/README.md)

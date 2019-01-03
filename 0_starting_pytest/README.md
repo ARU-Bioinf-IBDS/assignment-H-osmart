@@ -63,3 +63,7 @@ These are follow-me exercises to introduce `pytest` unit tests.
     **TODO: osmart Dec 2018: Embed Myplayer video player here**\
     [My notes for making the video *"Practical Example of pytest"*](
     ../.instructions/0_starting_pytest/practical_example_video_notes.md)
+
+<hr>
+
+*Back to:* [Instructions for Assignment H: Unit tests and File IO](../.instructions/README.md)
