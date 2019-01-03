@@ -105,7 +105,7 @@ relevant functions with unit tests.
   * When you commit your  `fasta_highest_gc` script make sure you include sample
     test output in the commit message showing that it works.
 
-## Final Test of the script.
+## Final Test of the `fasta_highest_gc` script.
 
 * Run you script on the test set [rosalind_final_test.txt](./rosalind_final_test.txt)
   and report the results on:

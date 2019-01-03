@@ -14,3 +14,6 @@
 ## Notes about this assignment
 
 * *Add any notes about your solution/testing here.*
+* *include results from
+  [Final Test of the `fasta_highest_gc` script](
+  2_fasta_gc_content/README.md#final-test-of-the-fasta_highest_gc-script)*
