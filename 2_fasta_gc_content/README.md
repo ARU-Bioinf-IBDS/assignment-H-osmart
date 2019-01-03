@@ -3,7 +3,13 @@
 We are going to tackle this week's assignment by splitting it up into 
 relevant functions with unit tests.
 
-* Video showing the approach.
+* First watch the Video:\
+  *"Tackling Rosalind Computing %GC using functions"*\
+  **TODO: osmart Jan 2019: record**\
+  **TODO: osmart Jan 2019 Embed Myplayer video player here**\
+  [My notes to make the "Tackling Rosalind %GC video](
+  .instructions/2_fasta_gc_content/tackling_rosalind_gc_video_notes.md 
+ 
 * Then open a terminal and in your copy of your assignment repo
   change directory to [2_fasta_gc_content](./) where you
   will find starting code and tests, leading you through.
@@ -99,4 +105,3 @@ relevant functions with unit tests.
   * When you commit your  `fasta_highest_gc` script make sure you include sample
     test output in the commit message showing that it works.
 
-  `
