@@ -91,8 +91,16 @@ fileIO..
 
 ## 4.5 Read FASTA file with biopython rather than DIY code
 
+For production code reading established bioinformatics formats such as FASTA with DIY code
+is not that sensible. Reading sequence files in Biopython is easy see: 
+[biopython_read.py](../2_fasta_gc_content/biopython_read.py) for sample code
+showing how to read FASTA sequence.  
+Biopython is easy to install in conda: https://anaconda.org/anaconda/biopython
+
+Refactor you code to use biopython to read FASTA rather than the DIY code. 
 
 ## 4.6 Use classes to produce cleaner code.
+
 For those who have experience writing Python classes refactor code
 to  use a class structure. I would suggest two classes `Sequence`
 and `Sequences`
