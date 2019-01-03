@@ -105,3 +105,17 @@ relevant functions with unit tests.
   * When you commit your  `fasta_highest_gc` script make sure you include sample
     test output in the commit message showing that it works.
 
+## Final Test of the script.
+
+* Run you script on the test set [rosalind_final_test.txt](./rosalind_final_test.txt)
+  and report the results on:
+  * [Reflection on Practical H: Unit tests and File IO](
+    https://canvas.anglia.ac.uk/courses/1490/TODO-LINK)\
+    **TODO: osmart Jan 2019: add link to Canvas page**\
+    So that you can compare results with your classmate.
+  * The **Notes about this assignment** in the top [README.md](
+    ../README.md#notes-about-this-assignment)
+
+
+<hr>
+[Back to: Instructions for Assignment H: Unit tests and File IO](../.instructions/README.md)
