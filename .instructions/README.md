@@ -5,6 +5,9 @@ By the end of this practical you will be able to:
 * Understand how unit tests can be used in the software development process.
 * Use `pytest` to run existing Python unit tests.
 * Write Python code to read and write to files.   
+* Understand how functions can be used to split up a complex problem into a
+  series of simplier testable functions.
+* Write simple Python command line scripts.
 
 
 ## Assignment task.
