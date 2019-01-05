@@ -53,11 +53,16 @@ These are follow-me exercises to introduce `pytest` unit tests.
      (markdown for viewing)
 
 * Then view and follow along the follow-me exercise videos:
-  * *"Introducing pytest"*\
-    **TODO: osmart Dec 2018: record**\
-    **TODO: osmart Dec 2018: Embed Myplayer video player here**\
-    [My notes for making the video *"Introducing pytest"*](
-    ../.instructions/0_starting_pytest/introducing_pytest_video_notes.md) 
+  * *"Introducing pytest"*
+    * [temporary link to mp4 on OneDrive](https://1drv.ms/v/s!AjeHBmwgk7Hto1n1mER_WdlsD7Uw)\
+      **TODO: osmart Jan 2019: mp4 to  MyPlayer and embed video player here**
+    * GitHub links to the commits made in video 
+      * Change `test_add_one.py` commit:
+        [Fixed bug in test_add_one now passes all tests:](https://github.com/ARU-Bioinf-IBDS/assignment-H-osmart/commit/8296e7d333b6a64adf0386f6a920e5e20560be3e)
+      * Change `test_show_pytest_comparisons.py` commit: 
+        [fix up example test comparisons so all tests pass.](https://github.com/ARU-Bioinf-IBDS/assignment-H-osmart/commit/475dde0de1c60ecc57e33c01de440ef3986669c0)
+    * [My notes for making the video *"Introducing pytest"*](
+       ../.instructions/0_starting_pytest/introducing_pytest_video_notes.md) 
   * *"Practical Example of pytest"*\
     **TODO: osmart Dec 2018: record**\
     **TODO: osmart Dec 2018: Embed Myplayer video player here**\
