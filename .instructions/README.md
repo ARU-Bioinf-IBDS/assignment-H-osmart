@@ -16,7 +16,7 @@ By the end of this practical you will be able to:
   Computing GC Content](http://rosalind.info/problems/gc/)
   where you are given a number of DNA sequences in a FASTA file format
   and we need to find the sequence with the highest %GC content.
-  So firt read through the problem,
+  So first read through the problem,
   including the section *Identifying Unknown DNA Quickly* (that you must
   click to expand).
 * But do not start coding yet! We are going to see how to tackle the problem
