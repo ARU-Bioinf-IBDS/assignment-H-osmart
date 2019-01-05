@@ -11,7 +11,7 @@ def test_count_vowels_e():
     assert count_vowels('e') == 1
     
 
-def test_count_vowels_all_vowels():
+def test_count_vowels_lowercase_vowels():
     assert count_vowels('aeiou') == 5
     
 
