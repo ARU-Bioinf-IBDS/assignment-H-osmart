@@ -8,7 +8,7 @@ first example of a pytest test
 #      the test_ will import it from another file 
 def add_one(x):
     """ add one to a number"""
-    return x - 1
+    return x + 1
 
 
 def test_add_one_with_zero():
