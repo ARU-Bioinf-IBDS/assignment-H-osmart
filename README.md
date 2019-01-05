@@ -1,5 +1,5 @@
 # Assignment H: Unit tests and File IO
-## by First-Name Last-Name
+## by Oliver Smart
 
 ## Instructions
 * First edit this `README.md` replacing the `First-Name` and `Last-Name` 
