@@ -1,4 +1,4 @@
-# Introducting Software Testing
+# Introducing Software Testing
 In this practical we are going to see how testing can be used to
 aid software development. First watch this video:
 
