@@ -54,7 +54,7 @@ These are follow-me exercises to introduce `pytest` unit tests.
 
 * Then view and follow along the follow-me exercise videos:
   * *"Introducing pytest"*
-    * [temporary link to mp4 on OneDrive](https://1drv.ms/v/s!AjeHBmwgk7Hto1n1mER_WdlsD7Uw)\
+    * [temporary link to video.mp4 on OneDrive](https://1drv.ms/v/s!AjeHBmwgk7Hto1n1mER_WdlsD7Uw)\
       **TODO: osmart Jan 2019: mp4 to  MyPlayer and embed video player here**
     * GitHub links to the commits made in video 
       * Change `test_add_one.py` commit:
@@ -63,11 +63,15 @@ These are follow-me exercises to introduce `pytest` unit tests.
         [fix up example test comparisons so all tests pass.](https://github.com/ARU-Bioinf-IBDS/assignment-H-osmart/commit/475dde0de1c60ecc57e33c01de440ef3986669c0)
     * [My notes for making the video *"Introducing pytest"*](
        ../.instructions/0_starting_pytest/introducing_pytest_video_notes.md) 
-  * *"Practical Example of pytest"*\
-    **TODO: osmart Dec 2018: record**\
-    **TODO: osmart Dec 2018: Embed Myplayer video player here**\
-    [My notes for making the video *"Practical Example of pytest"*](
-    ../.instructions/0_starting_pytest/practical_example_video_notes.md)
+  * *"Practical Example of pytest"*
+    * [temporary link to video.mp4 on OneDrive](https://1drv.ms/v/s!AjeHBmwgk7Hto1wO73QePUeyGVcC)\
+      **TODO: osmart Jan 2019: mp4 to  MyPlayer and embed video player here**
+    * GitHub links to the commits made in video 
+      * [pytests for count_vowels function](https://github.com/ARU-Bioinf-IBDS/assignment-H-osmart/commit/696db39b5ee4a503e8be435bcf218e4cbb3be415)
+      * [First version of count_vowels function](https://github.com/ARU-Bioinf-IBDS/assignment-H-osmart/commit/3d0da4b94bf2e17467fe7c0eb366d17c52dc8d9f)
+      * [count_vowels function, all pytests pass](https://github.com/ARU-Bioinf-IBDS/assignment-H-osmart/commit/a301fd3b7702fda38e619efec75f7078816d1b0f)
+    * [My notes for making the video *"Practical Example of pytest"*](
+      ../.instructions/0_starting_pytest/practical_example_video_notes.md)
 
 <hr>
 
