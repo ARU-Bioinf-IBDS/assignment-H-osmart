@@ -13,4 +13,4 @@ import csv
 with open("example_in.csv") as file_in:
     csv_reader = csv.reader(file_in)
     for row in csv_reader:
-        print(row)
+        print('  '.join(row))
