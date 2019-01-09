@@ -20,5 +20,7 @@ for row in data:
     row[1] = row[1].replace('&', 'and')
     print(row)
 
-# TODO osmart Jan 2019: (c) save just the dates and names in a new CSV file 'lmb_out.csv'
-
+with open('lmb_out.csv', 'w') as f_out:
+    writer = csv.writer(f_out)
+    for row in data:
+        writer.writerow(row[:-1])
