@@ -13,7 +13,7 @@ see
 http://blog.thedigitalcatonline.com/blog/2016/03/06/python-mocks-a-gentle-introduction-part-1/
 """
 import os
-from task_2_function_to_read_a_file_into_lines import lines_from_file
+from mini_1b_function_to_read_a_file_into_lines import lines_from_file
 
 
 def test_read_lines_from_example_in_dot_txt():
