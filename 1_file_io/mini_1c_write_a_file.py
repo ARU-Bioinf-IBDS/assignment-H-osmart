@@ -6,4 +6,7 @@
 # Hint: look at the fileio_in_python.pdf reference card! 
 label='Test_fasta_99999'
 sequence='CCTGCGGAAGATCGGCACTAGAATAGCCAGAACCGTTTCTCTGAGGCTTCCGGCCTTCCCTCCCACT'
-# TODO osmart Jan 2019: write out data in FASTA format to test_out.fasta
+file_out = open('test_out.fasta', 'w')
+file_out.write('>' + label + '\n')
+file_out.write(sequence + '\n')
+file_out.close()
