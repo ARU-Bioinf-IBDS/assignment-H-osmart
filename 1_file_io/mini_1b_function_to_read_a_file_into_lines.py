@@ -8,4 +8,6 @@ def lines_from_file(filename):
    """ 
    reads input file filename and returns a list of lines from it.
    """
-   return ['lines_from_file to be written!']
+   with open(filename) as file_in:
+       contents = file_in.read()
+   return contents.splitlines()
