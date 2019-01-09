@@ -11,11 +11,14 @@
 #
 # Hint: look at the second page from fileio_in_python.pdf reference card! 
 
-# TODO osmart Jan 2019: read data from "lmb_nobel_prizes.tsv" 
+import csv
+with open('lmb_nobel_prizes.tsv') as tsv:
+    reader = csv.reader(tsv, delimiter='\t')
+    data = list(reader)
 
-# TODO osmart Jan 2019: (a) in the Nobel Prize Winners items, replace the '&' characters with 'and'
-
-# TODO osmart Jan 2019: (b) print out each row to the secreen
+for row in data:
+    row[1] = row[1].replace('&', 'and')
+    print(row)
 
 # TODO osmart Jan 2019: (c) save just the dates and names in a new CSV file 'lmb_out.csv'
 
